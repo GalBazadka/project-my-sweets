@@ -508,6 +508,7 @@ td{
         padding-right: 10px;
         height: 25px;
         text-align: left;
+        font-size: 20px;
 } 
 
 th{
@@ -515,6 +516,7 @@ th{
         height: 25px;
         text-align: right;
         font-weight: lighter;
+        font-size: 20px;
 } 
 
 tr:nth-child(3){
@@ -826,6 +828,12 @@ p.price{
         font-size: 12px;
         margin-top: 10px;
 }
+
+td, th{
+        font-size: 16px;
+} 
+
+
 
 }
 
