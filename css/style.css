@@ -906,6 +906,14 @@ input, textarea{
         font-size: 20px;  
         text-align: center;
 }
+
+.phone{
+       display: none;
+}
+
+.phoneimg{
+       display: none;
+}
     
 
 
