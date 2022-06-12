@@ -646,6 +646,7 @@ tr:nth-child(3){
 
 .phoneimg{
         width: 50px;
+        height: 50px;
         align-self: center;
         margin-top: 30px;
 }
@@ -927,16 +928,11 @@ input, textarea{
        display: none;
 }
     
-
-
-
-
-
-
-
-
-
-
+#myPicture {
+        margin-top: 65px;
+        margin-left: auto;
+        margin-right: auto;
+ }
 
 
 
