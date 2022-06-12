@@ -1,3 +1,6 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
 
 /* <--! header --> */
 body{
@@ -43,17 +46,16 @@ h6{
 }
 
 #firstcont{
-        display: none;
+        display: grid;
+        grid-template-columns: 33% 33%  33%;
+        border-bottom: 1.5px solid black;
+        width: 100%;
+        height: 102px;
+        background-color: white;
 }
 
 #container{
-        display: grid;
-        grid-template-columns: 90% 10% ;
-        height: 120px;
-        width: 80%;
-        border-bottom: 2px solid #a9c8bc;
-        margin-left: auto;
-        margin-right: auto;
+        display: none;
 }
 
 #logo{   
@@ -166,22 +168,6 @@ a{
         float: right;  
 }
 
-/* #shoppingCart h5{
-        margin-top: 20px;
-        text-align: left;
-        font-size: 17px;
-        padding-left: 20px; 
-        width: 150px;
-        color: #a9c8bc;  
-        float: left;
-}
-
-#shoppingCart h4{   
-        color: black;
-        text-align: right;   
-        padding-right: 20px; 
-        font-size: 15px;
-} */
 
 .total table{
         margin-top: 20px;
@@ -275,8 +261,8 @@ a{
 /* <--! Home page --> */
 
 .mySlides{
-        width: 65%;
-        height: 550px;
+        width: 600px;
+        height: 900px;
         margin-left: auto;
         margin-right: auto;
         display:none;
@@ -566,7 +552,7 @@ tr:nth-child(3){
 
 #footerMenu {   
         list-style-type: none;
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         margin-left: 40px;
 }
@@ -587,29 +573,9 @@ tr:nth-child(3){
 
 .footer1 p{
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
         color: #858585; 
         line-height: 20px; 
-}
-
-
-@media only screen and (max-width: 811px)  {
-
-.mySlides{
-        height: 350px;
-}
-
-#container{
-        display: none;
-}
-
-#firstcont{
-        display: grid;
-        grid-template-columns: 33% 33%  33%;
-        border-bottom: 1.5px solid black;
-        width: 100%;
-        height: 102px;
-        background-color: white;
 }
 
 .topnav {
@@ -648,7 +614,7 @@ tr:nth-child(3){
 
 #myLinks li:first-child{
         margin-top: 100px;
-    }
+        }
 
 #myLinks a{
         font-size: 22px;
@@ -697,7 +663,7 @@ tr:nth-child(3){
         margin-top: 35px;
         margin-left: 30px;
 }
-              
+                
 .footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -707,19 +673,11 @@ tr:nth-child(3){
 
 
 
-/* textarea{
-        width: 500px;
-} */
-
 .input input, .input textarea{
         width: 470px;
         border: 3px solid black;
 }
 
-
-/* body{
-        background-color: pink;
-} */
 
 #order{
         display: flex;
@@ -742,41 +700,110 @@ tr:nth-child(3){
         display: flex;
         flex-direction: column;
 }
+
 }
 
-/* 
-@media only screen and (max-width: 428px) {
-       
+/* Medium devices (landscape tablets, 768px and up)
+@media only screen and (min-width: 810px) {
         .mySlides{
-                width: 200px;
-                height: 300px;
+                width: 800px;
+                height: 600px;
         }
-/*         
-        .topnav i {
-                color: #a9c8bc;
-                margin-left: -50px;
-                margin-top: 23px;
-                font-size: 40px;
-        } */
+} */
 
-        .footer1 p{      
-                font-size: 12px;  
-        }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1500px) {
 
-        #footerMenu {         
-                font-size: 12px;    
-        }
+.mySlides{
+        width: 65%;
+        height: 550px;
+}            
 
-        h5{
-                font-size: 12px;   
-        }
+#container{
+        display: grid;
+        grid-template-columns: 90% 10% ;
+        height: 120px;
+        width: 80%;
+        border-bottom: 2px solid #a9c8bc;
+        margin-left: auto;
+        margin-right: auto;
+}
 
-        /* #myLinks li{
-                line-height: 30px;
-                font-size: 10px;
+#firstcont{
+        display: none;
+}
 
-        } */
-        } */
+
+#logopic{   
+        max-height: 100px;   
+}
+
+#logo{
+        margin-right: auto;
+        margin-left: auto;
+        align-self: flex-start;
+}
+
+.icon{
+        font-size: 30px;
+        color: #a9c8bc;
+        margin-top: 10px;
+}
+
+.phoneimg{
+        width: 30px;
+        align-self: center;
+}
+
+.phone{
+        justify-self:start;
+        margin-top: 35px;
+        margin-left: 30px;
+}
+                
+.footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border-top: 2px solid black;
+        margin: 5% 10% 2% 10% ;
+}
+
+
+
+.input input, .input textarea{
+        width: 470px;
+        border: 3px solid black;
+}
+
+
+#order{
+        display: flex;
+        flex-direction: column; 
+}
+
+.deliveryForm, .orderDetails{
+        width: 100%;
+        margin-top: 20px;
+}
+
+#logopicCart{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+#table, #deliveries, #aboutMe, #privacy{
+        margin: 50px 50px ;
+        display: flex;
+        flex-direction: column;
+}
+
+.footer1 p, #footerMenu, h5  {      
+        font-size: 14px;  
+}
+
+}
+
 
 
 
