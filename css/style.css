@@ -262,7 +262,7 @@ a{
 
 .mySlides{
         width: 450px;
-        height: 750px;
+        height: 650px;
         margin-left: auto;
         margin-right: auto;
         display:none;
@@ -702,14 +702,14 @@ tr:nth-child(3){
 }
 
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
+/* 
+Medium devices (landscape tablets, 768px and up)
 @media only screen and (min-width: 810px) {
         .mySlides{
                 width: 800px;
                 height: 600px;
         }
-}
+} */
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1500px) {
