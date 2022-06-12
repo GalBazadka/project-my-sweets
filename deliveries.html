@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> גאליה פטיסרי </title>
+    <link rel="icon" href="picture\logo.png" type="image/icon type">
+    <link rel="stylesheet" href="css\style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/da748367b5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Heebo:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"> </script> 
+</head>
+
+<body>
+
+  <script src="scripts/menu.js"></script>
+  <script src="scripts/shopping.js"></script>
+ 
+  <!-- menu small size -->
+  
+<div id="firstcont">
+
+  <div class="phone">
+    <a href= tel:052-6200969  target="_blank" > <img class="phoneimg" src= "picture/phone.png"/> </a>
+  </div>
+
+  <div id="logo">
+    <a href="home.html" > <img id="logopic" src= "picture/logo.png"> </a>
+  </div> 
+
+  <div class="container">
+    <div class="topnav">
+      <div id="myLinks">
+        <li class="smallMenu"> <a href="home.html">        בית     </a> </li>
+        <li class="smallMenu"> <a href="cakes.html">       עוגות   </a> </li>
+        <li class="smallMenu"> <a href="dessertTables.html">       שולחנות   </a> </li>
+        <li class="smallMenu"> <a href="about me.html">   על עצמי  </a> </li>
+        <li class="smallMenu"> <a href="deliveries.html" > משלוחים </a> </li>
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      </div>
+    </div>         
+  </div>
+
+<!-- menu larg size -->
+
+  <div id="social">
+    <div class="icon" class="shopCart"> <a href="#" onclick="openCartFunction()"> <img class="socialMedia" src= "picture\bag-shopping.jpg"/> </a> </div>
+    <div class="icon"> <a href="https://www.instagram.com/galbazadka/"  target="_blank"> <img class="socialMedia" src= "picture\instagram.png"> </a> </div>
+    <div class="icon"> <a href="https://www.facebook.com/search/top?q=%D7%92%D7%90%D7%9C%D7%99%D7%94%20%D7%A4%D7%98%D7%99%D7%A1%D7%A8%D7%99%20-%20galia%20patisserie" target="_blank" > <img class="socialMedia" src= "picture\facebook.png"> </a> </div>
+    <div class="icon"> <a href="https://web.whatsapp.com/" target="_blank"> <img class="socialMedia" src= "picture\whatsapp.png"> </a> </div>
+  </div>
+
+  <div id="container" >
+    <div id="nav">
+      <nav>
+          <ul id="menu" dir= "rtl">
+            <li class="menu"> <a href="home.html">        בית     </a> </li>
+            <li class="menu"> <a href="cakes.html">       עוגות   </a> </li>
+            <li class="menu"> <a href="dessertTables.html">       שולחנות   </a> </li>
+            <li class="menu"> <a href="about me.html">   על עצמי  </a> </li>
+            <li class="menu"> <a href="deliveries.html" > משלוחים </a> </li>
+          </ul>
+      </nav>
+    </div>
+
+    <div id="logo">
+      <a href="home.html" > <img id="logopic" src= "picture/logo.png"> </a>
+    </div>     
+  </div>
+
+  <!-- shopping cart -->
+ 
+<div id="shoppingCart">
+  <div class= "shoppingHeader">
+    <h1>  עגלת קניות </h1>
+  </div>
+
+  <div id="products">
+  </div>
+
+  <div class= "shoppingSumery">
+    <div class="total">
+
+      <table id="totalPriceTable" dir="rtl">
+        <tr>
+          <th>סה"כ:</th>
+          <td id = "totalPrice">₪ 0</td>
+        </tr>
+      </table> 
+      
+    </div>
+    
+      <div class="cash">
+        <a id="shopping_button_submit" href="cart.html"> לקופה </a>
+    </div>
+  </div>
+
+  <a href="javascript:void(0);" class="xmark" onclick="closeCartFunction()">
+    <i class="fa-solid fa-xmark"></i>
+  </a>
+    
+</div>
+
+  <div id= "deliveries" dir="rtl">
+        
+          <h3> משלוחים והזמנות </h3> 
+          <p>
+          לא ניתן להזמין מהרגע להרגע, אלא רק ליום למחרת/ כל תאריך אחר שתבחרו. </br>
+          ניתן לבחור משלוח/ איסוף עצמי.  </br>
+          הזמנות ליום שישי ניתן לבצע עד יום חמישי בשעה 13:00. </br>
+          חובה להוסיף קומה ודירה </br>
+         <h4> איסוף עצמי </h4>  
+           בין השעות 14:00-21:00  </br>
+          בשישי בין השעות 10:00-15:00 </br>
+          <h4> משלוחים </h4>
+          המשלוחים יגיעו באמצע שבוע בין השעות 15:00-21:00 </br>
+          בשישי בין השעות 8:30 ל 15:30. </br>
+          אין ביכולתנו להתחייב לשעת הגעת המשלוח </br>
+          אנחנו תלויים  בחברת שליחויות חיצונית </br>
+          במידה וזמן השילוח חשוב לכם אנא שלחו שליח שלכם/תגיעו לאסוף מהחנות </br>
+          הזמנות מתבצעות רק דרך האתר ♥  </br>
+          עלות משלוח 50 ₪ </br>
+         <h4>  רשימת הערים אליהן יש משלוחים:</h4>  
+          אבן יהודה, אלישמע ,  אור יהודה, אזור, בית דגן, בני דרור, בני ברק </br>
+          בית יהושע , בני ציון , בצרה, בת ים, גבעתיים, געש , גבעת שמואל, גני תקווה </br>
+          הוד השרון, הרצליה, יהוד, יקום, חולון, כפר נטר, כפר יונה , כפר שמריהו, נתניה, נורדיה , </br>
+          נוה ירק, סביון, פתח תקווה, פרדסיה, צור משה, קרית אונו, קדימה צורן </br>
+          ראשון לציון, רמת גן, רמת השרון, </br>
+          שפיים, תל אביב, תל מונד </br>
+        </p>
+  
+  </div>
+
+
+  </body>
+  <footer>
+    <div class=" footer">
+
+      <div class="footer1"> 
+        <h5>שעות פעילות </h5>
+        <p> 
+          ראשון – חמישי 09:30-21:30 </br>
+          08:30-15:30 שישי </br>
+          כתובת: גולדין 5 רחובות </br>
+          052-6200969 :למידע נוסף </br>
+        </p> 
+      </div>
+
+      <div class="footer2"> 
+        <h5> פרטיות ואבטחה </h5>
+        <ul id="footerMenu" dir= "rtl">
+          <li class="footerMenu"> <a href="deliveries.html" >   משלוחים   </a> </li>
+          <li class="footerMenu"> <a href="policy.html" >   פרטיות ואבטחה     </a> </li>
+        </ul>
+      </div>
+
+      <div class="footer3"> 
+        <h5> גאליה </h5>
+        <ul id="footerMenu" dir= "rtl">
+          <li class="footerMenu"> <a href="about me.html">  על עצמי </a> </li>
+          <li class="footerMenu"> <a href="cakes.html">     עוגות   </a> </li>
+          <li class="footerMenu"> <a href="contact.html">   שולחן קינוחים </a> </li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+</html>
