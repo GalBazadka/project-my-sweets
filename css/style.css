@@ -321,7 +321,7 @@ p.price{
         color: aliceblue;
         border-radius: 5px;
         font-size: 30px;
-        padding: 4px 134px; 
+        padding: 4px 115px; 
 }
 
 /* <--! contact page --> */
@@ -796,7 +796,9 @@ p.price{
 
 #addCrt {      
         font-size: 20px;   
+        padding: 4px 134px; 
 }
+
 #shoppingCart{
         width: 350px;  
 }
