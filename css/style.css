@@ -125,7 +125,7 @@ a{
 }
 
 #shoppingCart{
-        width: 500px;
+        width: 80%;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -198,8 +198,8 @@ a{
 
 .product{
         margin-top: 20px; 
-        height: 150px;
-        width: 450px;
+        height: 180px;
+        width: 95%;
         background-color: white;
         border-radius: 5px;
         margin-left: 25px;
@@ -212,8 +212,8 @@ a{
         margin-right: 10px;
         margin-left: 20px;
         float: right;
-        width: 130px;
-        height: 130px;
+        width: 160px;
+        height: 160px;
         border-radius: 3px;
 }
 
