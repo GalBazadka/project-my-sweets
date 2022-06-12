@@ -438,12 +438,13 @@ input, textarea{
 #form_button_submit{
         margin-top: 20px;
         width: 40%;
-        height: 40px;
+        height: 80px;
         background-color:rgb(0, 0, 0);
         color: aliceblue;
-        border-radius: 5px;
-        font-size: 20px;  
+        border-radius: 10px;
+        font-size: 30px;  
         text-align: center;
+        line-height: 30px;
 }
 
 #form_button_submit:hover{
@@ -893,6 +894,17 @@ input, textarea{
         font-size: 14px;
         text-align: right;
         padding-right: 10px;
+}
+
+#form_button_submit{
+        margin-top: 20px;
+        width: 40%;
+        height: 40px;
+        background-color:rgb(0, 0, 0);
+        color: aliceblue;
+        border-radius: 5px;
+        font-size: 20px;  
+        text-align: center;
 }
 
 
