@@ -125,8 +125,7 @@ a{
 }
 
 #shoppingCart{
-     
-        width: 350px;
+        width: 500px;
         position: absolute;
         top: 0px;
         left: 0px;
@@ -199,9 +198,8 @@ a{
 
 .product{
         margin-top: 20px; 
-        width: 200px;
-        height: 120px;
-        width: 300px;
+        height: 150px;
+        width: 450px;
         background-color: white;
         border-radius: 5px;
         margin-left: 25px;
@@ -214,17 +212,16 @@ a{
         margin-right: 10px;
         margin-left: 20px;
         float: right;
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
         border-radius: 3px;
 }
 
 .productDetails{  
         padding-top: 0.1px;
-        width: 190px;
         text-align: right;
         padding-left: 10px;
-        font-size: 17px;
+        font-size: 25px;
 }
 
 .productName{
@@ -232,14 +229,14 @@ a{
 }
 
 .productNamePrice{
-        font-size: 16px;
+        font-size: 22px;
         text-align: left;
         margin-top: 40px;
 }
 
 .xmark{
         color:white;
-        font-size: 20px;
+        font-size: 25px;
         padding-top: 7px;
         padding-left: 10px;    
         position: absolute;
@@ -248,9 +245,9 @@ a{
 
 .productDetails i{
         color: #a9c8bc;
-        font-size: 12px;
+        font-size: 18px;
         float: left;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-left: 10px;
 }
 
@@ -355,7 +352,7 @@ p.price{
         margin-right: auto;
 }
 
-/* <--! tables --> */
+/* <--!desserts tables --> */
 
 #table{
         margin: 50px 250px ;
@@ -497,15 +494,6 @@ input, textarea{
         color: #000000;
         padding-top: 7px;
         padding-right: 10px;      
-}
-
-.productDetails i{
-        color: #a9c8bc;
-        font-size: 12px;
-        float: left;
-        margin-top: 10px;
-        margin-left: 10px;
-        margin-right: 50px;
 }
 
 table{
@@ -806,6 +794,37 @@ p.price{
 
 #addCrt {      
         font-size: 20px;   
+}
+#shoppingCart{
+        width: 350px;  
+}
+
+.product{
+        height: 120px;
+        width: 300px;
+}
+
+.productImg{
+        width: 100px;
+        height: 100px;
+}
+
+.productDetails{  
+        width: 190px;
+        font-size: 17px;
+}
+
+.productNamePrice{
+        font-size: 16px;
+}
+
+.xmark{
+        font-size: 20px;  
+}
+
+.productDetails i{
+        font-size: 12px;
+        margin-top: 10px;
 }
 
 }
