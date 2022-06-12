@@ -675,10 +675,14 @@ tr:nth-child(3){
         margin-right: auto;
 }
 
-#table, #deliveries, #aboutMe, #privacy{
+#table, #aboutMe, #privacy{
         margin: 70px 70px ;
         display: flex;
         flex-direction: column;
+}
+
+#deliveries{
+        margin: 70px 70px ;
 }
 
 }
@@ -762,10 +766,14 @@ Medium devices (landscape tablets, 768px and up)
         height: 100px;
 }
 
-#table, #deliveries, #aboutMe, #privacy{
+#table, #aboutMe, #privacy{
         margin: 50px 250px ;
         display: flex;
         flex-direction: row;
+}
+
+#deliveries{
+        margin: 50px 250px ;
 }
 
 #aboutMe p, #tableTxt p, #tableTxt li {
