@@ -790,6 +790,10 @@ h3{
         font-size: 14px;  
 }
 
+.footerMenu, .footer1 p{
+        line-height: 22px;
+}
+
 .socialMedia{
         width: 45px;
         height: 45px;
