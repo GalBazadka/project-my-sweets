@@ -22,7 +22,7 @@ h3{
         text-align: center;
         color: #a9c8bc; 
         margin-top: 0px;
-        font-size: 25px;
+        font-size: 40px;
         font-weight: lighter;
 }
 
@@ -33,7 +33,7 @@ h4{
 }
 
 h5{
-        font-size: 14px;
+        font-size: 18px;
         text-align: center;
         font-weight: lighter;
 }
@@ -300,12 +300,13 @@ a{
         margin-top: 10px;
         margin-bottom: 10px;
         text-align: center;
-        font-size: 25px;
+        font-size: 30px;
 }
 
 p.price{
         margin-top: -10px;
         text-align: center;
+        font-size: 20px;
 }
 
 #form_button{
@@ -339,10 +340,10 @@ p.price{
        justify-content: space-between;
 }
 
-#aboutMe p{
+#aboutMe p, #tableTxt p{
         text-align: right;
-        line-height: 30px;
-        font-size: 20px;  
+        line-height: 40px;
+        font-size: 30px;  
 }
 
 #myPicture img{
@@ -365,16 +366,10 @@ p.price{
         justify-content: space-between;
  }
  
- #tableTxt p{
-        text-align: right;
-        line-height: 30px;
-        font-size: 20px; 
- }
-
  #tableTxt li {
         text-align: right;
-        line-height: 25px;
-        font-size: 20px;  
+        line-height: 40px;
+        font-size: 30px;  
         list-style-type:circle;
 }
  
@@ -554,7 +549,7 @@ tr:nth-child(3){
 
 #footerMenu {   
         list-style-type: none;
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
         margin-left: 40px;
 }
@@ -575,7 +570,7 @@ tr:nth-child(3){
 
 .footer1 p{
         text-align: center;
-        font-size: 14px;
+        font-size: 18px;
         color: #858585; 
         line-height: 20px; 
 }
@@ -782,7 +777,17 @@ Medium devices (landscape tablets, 768px and up)
 #table, #deliveries, #aboutMe, #privacy{
         margin: 50px 250px ;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+}
+
+#aboutMe p, #tableTxt p, #tableTxt li {
+        text-align: right;
+        line-height: 30px;
+        font-size: 20px;  
+}
+
+h3{
+        font-size: 25px;
 }
 
 .footer1 p, #footerMenu, h5  {      
@@ -792,6 +797,10 @@ Medium devices (landscape tablets, 768px and up)
 .socialMedia{
         width: 45px;
         height: 45px;
+}
+
+.item h3{
+        font-size: 25px;
 }
 
 }
