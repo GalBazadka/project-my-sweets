@@ -407,11 +407,9 @@ p.price{
         background-color: #f1fffa;
  }
 #order h3{
-        margin-top: 5%;
-        margin-left: auto;  
-        margin-right: auto; 
         text-align: center;
         color: black;
+        margin: 5% auto 100px auto;
  }
     
 .orderDetails{
@@ -423,15 +421,15 @@ p.price{
  }
 
 input, textarea{
-        height: 40px;
-        width: 70%;
+        height: 60px;
+        width: 80%;
         color: #616161;
         border: 1px solid rgb(173, 173, 173);
         border-radius: 5px;
         margin-top: 10px;
         text-align: center;
         font-family: 'Rubik', sans-serif; 
-        font-size: 14px;
+        font-size: 18px;
         text-align: right;
         padding-right: 10px;
 }
@@ -459,21 +457,22 @@ input, textarea{
 }
 
 .orderProduct{      
-        width: 60%;
-        height: 120px;
+        width: 80%;
+        height: 250px;
         border-bottom: 1px solid #a9c8bc ;
         display: block;
         background-color: white;
         margin-left: auto;  
-        margin-right: auto;         
+        margin-right: auto;      
+        margin-top: 10px;   
 }
 
 .orderProductImg{
         margin-top: 10px;
         margin-right: 10px;
         float: right;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         border-radius: 3px;
 }
 
@@ -483,22 +482,27 @@ input, textarea{
 
 .orderProductNamePrice{    
         text-align: left;
+        font-size: 30px;
 }
 
 .orderProductName{
-        width: 90%;
+        width: 80%;
         display: inline-block;
+        font-size: 35px;
+        padding-right: 20px;
+        margin-top: 10px;
 }
 
 .fa-solid, .fas{
         color: #000000;
         padding-top: 7px;
-        padding-right: 10px;      
+        padding-right: 10px;    
+        font-size: 30px;  
 }
 
 table{
         margin-top: 50px;
-        width: 60%;  
+        width: 80%;  
         margin-left: auto;
         margin-right: auto;  
         color: #616161;  
@@ -741,11 +745,6 @@ Medium devices (landscape tablets, 768px and up)
         margin: 5% 10% 2% 10% ;
 }
 
-.input input, .input textarea{
-        width: 470px;
-        border: 3px solid black;
-}
-
 #order{
         display: flex;
         flex-direction: column; 
@@ -855,6 +854,39 @@ td, th{
         font-size: 20px;
         height: 40px;
         line-height: 40px;
+}
+
+.orderProduct{      
+        width: 60%;
+        height: 120px;       
+}
+
+.orderProductImg{
+        width: 100px;
+        height: 100px;
+}
+
+.orderProductName{
+        width: 80%;
+        font-size: 12px;
+}
+
+.fa-solid, .fas{
+        font-size: 20px;    
+}
+
+input, textarea{
+        height: 40px;
+        width: 70%;
+        color: #616161;
+        border: 1px solid rgb(173, 173, 173);
+        border-radius: 5px;
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Rubik', sans-serif; 
+        font-size: 14px;
+        text-align: right;
+        padding-right: 10px;
 }
 
 
