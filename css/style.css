@@ -867,9 +867,14 @@ td, th{
         height: 100px;
 }
 
+.orderProductNamePrice{    
+        text-align: left;
+        font-size: 16px;
+}
+
 .orderProductName{
         width: 80%;
-        font-size: 12px;
+        font-size: 16px;
 }
 
 .fa-solid, .fas{
