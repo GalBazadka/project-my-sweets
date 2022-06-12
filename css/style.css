@@ -608,7 +608,7 @@ tr:nth-child(3){
 }
 
 #myLinks li{
-        line-height: 70px;
+        line-height: 150px;
         list-style-type: none;
         border-bottom: 2px solid rgb(207, 207, 207);
         padding-right: 30px;
@@ -619,7 +619,7 @@ tr:nth-child(3){
         }
 
 #myLinks a{
-        font-size: 22px;
+        font-size: 40px;
 }
 
 #myLinks a:hover{
