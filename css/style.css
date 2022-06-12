@@ -401,11 +401,11 @@ p.price{
         justify-content: space-between;
  }
 
-.deliveryForm{
+/* .deliveryForm{
         width: 50%;
         height: 100%;
         background-color: #f1fffa;
- }
+ } */
 #order h3{
         text-align: center;
         color: black;
@@ -663,15 +663,6 @@ tr:nth-child(3){
         margin: 5% 10% 2% 10% ;
 }
 
-.input input, .input textarea{
-        width: 470px;
-        border: 3px solid black;
-}
-
-#order{
-        display: flex;
-        flex-direction: column; 
-}
 
 .deliveryForm, .orderDetails{
         width: 100%;
@@ -749,13 +740,22 @@ Medium devices (landscape tablets, 768px and up)
 
 #order{
         display: flex;
-        flex-direction: column; 
+        flex-direction: row;
+        flex-wrap: wrap;  
+        align-items: flex-start;
+        justify-content: space-between;
 }
 
-.deliveryForm, .orderDetails{
-        width: 100%;
-        margin-top: 20px;
-}
+.orderDetails{
+        width: 50%;
+   
+ }
+
+.deliveryForm{
+        width: 50%;
+        height: 100%;
+        background-color: #f1fffa;
+ }
 
 #logopicCart{
         display: block;
@@ -894,11 +894,12 @@ input, textarea{
         font-size: 14px;
         text-align: right;
         padding-right: 10px;
+        line-height: 40px;
 }
 
 #form_button_submit{
         margin-top: 20px;
-        width: 40%;
+        width: 250px;
         height: 40px;
         background-color:rgb(0, 0, 0);
         color: aliceblue;
@@ -906,6 +907,17 @@ input, textarea{
         font-size: 20px;  
         text-align: center;
 }
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
