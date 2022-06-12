@@ -675,13 +675,13 @@ tr:nth-child(3){
         margin-right: auto;
 }
 
-#table, #aboutMe, #privacy{
+#table, #aboutMe{
         margin: 70px 70px ;
         display: flex;
         flex-direction: column;
 }
 
-#deliveries{
+#deliveries, #privacy{
         margin: 70px 70px ;
 }
 
@@ -766,13 +766,13 @@ Medium devices (landscape tablets, 768px and up)
         height: 100px;
 }
 
-#table, #aboutMe, #privacy{
+#table, #aboutMe{
         margin: 50px 250px ;
         display: flex;
         flex-direction: row;
 }
 
-#deliveries{
+#deliveries, #privacy{
         margin: 50px 250px ;
 }
 
