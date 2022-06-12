@@ -48,9 +48,9 @@ h6{
 #firstcont{
         display: grid;
         grid-template-columns: 33% 33%  33%;
-        border-bottom: 1.5px solid black;
+        border-bottom: 2px solid black;
         width: 100%;
-        height: 102px;
+        height: 200px;
         background-color: white;
 }
 
@@ -63,7 +63,9 @@ h6{
 }
 
 #logopic{   
-        width: 100px;   
+        width: 150px;   
+        height: 150px;
+        margin-top: 30px;
 }
 
 #logopicCart{   
@@ -77,12 +79,12 @@ h6{
         grid-template-rows: repeat(5,1fr);     
         align-self: center;
         position: fixed;
-        top: 180px;
+        top: 250px;
 }
 
 .socialMedia{
-        width: 45px;
-        height: 45px;
+        width: 80px;
+        height: 80px;
 }
 
 .icon{      
@@ -262,7 +264,7 @@ a{
 
 .mySlides{
         width: 600px;
-        height: 900px;
+        height: 800px;
         margin-left: auto;
         margin-right: auto;
         display:none;
@@ -329,7 +331,7 @@ p.price{
 /* <--! about me --> */
 
 #aboutMe{
-       margin: 50px 250px ;
+    
        display: flex;
        flex-direction: row;
        flex-wrap: wrap;  
@@ -385,14 +387,14 @@ p.price{
 /* <--! privacy page --> */
 
 #privacy{
-        margin: 50px 250px;
+   
         line-height: 22px;
 }
 
 /* <--! deliveries page --> */
 
 #deliveries{
-        margin: 50px 250px;
+       
         line-height: 22px;
 }
 
@@ -573,7 +575,7 @@ tr:nth-child(3){
 
 .footer1 p{
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
         color: #858585; 
         line-height: 20px; 
 }
@@ -602,7 +604,7 @@ tr:nth-child(3){
         color: #a9c8bc;
         margin-right: 50px;
         margin-top: 23px;
-        font-size: 40px;
+        font-size: 50px;
 }
 
 #myLinks li{
@@ -628,7 +630,7 @@ tr:nth-child(3){
         display: block;
         position: absolute;
         right: 0;      
-        top:50;
+        margin-top:50px;
 }
 
 .active {
@@ -637,9 +639,6 @@ tr:nth-child(3){
         height: 25px;
 }
 
-#logopic{   
-        max-height: 100px;   
-}
 
 #logo{
         margin-right: auto;
@@ -654,8 +653,9 @@ tr:nth-child(3){
 }
 
 .phoneimg{
-        width: 30px;
+        width: 50px;
         align-self: center;
+        margin-top: 30px;
 }
 
 .phone{
@@ -696,14 +696,14 @@ tr:nth-child(3){
 }
 
 #table, #deliveries, #aboutMe, #privacy{
-        margin: 50px 50px ;
+        margin: 70px 70px ;
         display: flex;
         flex-direction: column;
 }
 
 }
-
-/* Medium devices (landscape tablets, 768px and up)
+/* 
+Medium devices (landscape tablets, 768px and up)
 @media only screen and (min-width: 810px) {
         .mySlides{
                 width: 800px;
@@ -734,31 +734,21 @@ tr:nth-child(3){
 }
 
 
-#logopic{   
-        max-height: 100px;   
-}
-
 #logo{
         margin-right: auto;
         margin-left: auto;
         align-self: flex-start;
+}
+#logopic{   
+        height: 100px;  
+        width: 100px; 
+        margin-top: 0px;
 }
 
 .icon{
         font-size: 30px;
         color: #a9c8bc;
         margin-top: 10px;
-}
-
-.phoneimg{
-        width: 30px;
-        align-self: center;
-}
-
-.phone{
-        justify-self:start;
-        margin-top: 35px;
-        margin-left: 30px;
 }
                 
 .footer{
@@ -768,13 +758,10 @@ tr:nth-child(3){
         margin: 5% 10% 2% 10% ;
 }
 
-
-
 .input input, .input textarea{
         width: 470px;
         border: 3px solid black;
 }
-
 
 #order{
         display: flex;
@@ -793,13 +780,18 @@ tr:nth-child(3){
 }
 
 #table, #deliveries, #aboutMe, #privacy{
-        margin: 50px 50px ;
+        margin: 50px 250px ;
         display: flex;
         flex-direction: column;
 }
 
 .footer1 p, #footerMenu, h5  {      
         font-size: 14px;  
+}
+
+.socialMedia{
+        width: 45px;
+        height: 45px;
 }
 
 }
