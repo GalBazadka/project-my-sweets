@@ -50,18 +50,19 @@ function addToCartFunction(x){
     const image = document.createElement("img")
     const details = document.createElement("div");
     const producticonHref = document.createElement("a");
-    const producticon = document.createElement("i");
+    const producticon = document.createElement("img");
     const productname = document.createElement("p");
     const productprice = document.createElement("p");
     const productinput = document.createElement("input");
 
     product.className = "product";
+    product.dir = "rtl";
     image.className = "productImg";
     image.src = "picture/25cake.jpeg";
     details.className = "productDetails";
-    producticon.className = "fa-solid fa-xmark";
+    producticon.src = "picture/closeBlue.png";
+    producticon.className = "xmarkDelete";
     producticonHref.href = "#";
-    producticonHref.id = "X-MARK";
     producticonHref.addEventListener("click", removeFromCartFunction); 
     productprice.className = "productNamePrice";
     productname.className = "productName";
@@ -85,9 +86,10 @@ function addToCartFunction(x){
     // productinput.min = "1";
     // productinput.max = "5";
 
+   
+    details.appendChild(productname);
     producticonHref.appendChild(producticon) ;
     details.appendChild(producticonHref) ;
-    details.appendChild(productname);
     details.appendChild(productprice);
     // details.appendChild(productinput);
     product.appendChild(image);
