@@ -95,6 +95,11 @@ h6{
         width: 55px;
 }
 
+.hamburgerImg{
+        height: 70px;
+        margin-top: 57px;
+        margin-right: 10px;
+}
 #nav{
         align-self: center;
 }
@@ -239,12 +244,10 @@ a{
 }
 
 .xmark{
-        color:white;
-        font-size: 40px;
-        padding-top: 17px;
-        padding-left: 15px;    
+        width: 25px;  
         position: absolute;
-        top:0px;   
+        top: 35px;
+        left: 20px;   
 }
 
 .productDetails i{
@@ -583,7 +586,7 @@ tr:nth-child(3){
 
 .topnav {
         overflow:visible;
-        background-color: #a9c8bc;   
+        /* background-color: #a9c8bc;    */
         transform: translate(0, 0);
         opacity:1;   
 }
@@ -613,14 +616,20 @@ tr:nth-child(3){
         list-style-type: none;
         border-bottom: 2px solid rgb(207, 207, 207);
         padding-right: 30px;
+        background-color: #a9c8bc;
 }
 
-#myLinks li:first-child{
+#myLinks{
+        margin-top: 200px;
+}
+
+/* #myLinks li:first-child{
         margin-top: 100px;
-        }
+        } */
 
 #myLinks a{
-        font-size: 40px;
+        font-size: 50px;
+        background-color: #a9c8bc;
 }
 
 #myLinks a:hover{
