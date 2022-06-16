@@ -53,7 +53,7 @@ function addToCartFunction(x){
     const producticon = document.createElement("img");
     const productname = document.createElement("p");
     const productprice = document.createElement("p");
-    const productinput = document.createElement("input");
+    // const productinput = document.createElement("input");
 
     product.className = "product";
     product.dir = "rtl";
