@@ -1,6 +1,6 @@
 function openCartFunction(){
   document.getElementById("shoppingCart").style.display = "block";
-  document.body.style.backgroundColor = "#e7e7e7"; 
+  // document.body.style.backgroundColor = "#e7e7e7"; 
 }
 
 function calculateTotal(){
