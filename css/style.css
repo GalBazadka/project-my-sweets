@@ -66,6 +66,7 @@ h6{
         align-self: center;    
 }
 
+
 #logopic{   
         width: 150px;   
         height: 150px;
@@ -684,14 +685,14 @@ tr:nth-child(3){
         margin-top: 10px;
 }
 
-.phoneimg{
-        width: 50px;
-        height: 50px;
-        align-self: center;
-        margin-top: 40px;
+.cartImg{
+        height: 70px;
+        position: absolute;
+        top: 77px;
+        left: 20px;
 }
 
-.phone{
+.cart{
         justify-self:start;
         margin-top: 35px;
         margin-left: 30px;
@@ -759,7 +760,7 @@ Medium devices (landscape tablets, 768px and up)
 
 #container{
         display: grid;
-        grid-template-columns: 90% 10% ;
+        grid-template-columns: 10% 80% 10% ;
         height: 120px;
         width: 80%;
         border-bottom: 2px solid #a9c8bc;
@@ -777,10 +778,19 @@ Medium devices (landscape tablets, 768px and up)
         margin-left: auto;
         align-self: flex-start;
 }
+
+#shopCart{
+        margin-right: auto;
+        margin-left: auto;
+}
+
 #logopic{   
         height: 100px;  
         width: 100px; 
         margin-top: 0px;
+        position: absolute;
+        top: 15px;
+        right: 160px;
 }
 
 .icon{
@@ -871,12 +881,12 @@ p.price{
 }
 
 #shoppingCart{
-        width: 350px;  
+        width: 370px;  
 }
 
 .product{
         height: 120px;
-        width: 300px;
+        width: 330px;
 }
 
 .productImg{
@@ -884,21 +894,34 @@ p.price{
         height: 100px;
 }
 
-.productDetails{  
+.productName{
+        height: 30px;
+        width: 160px;
+        display: inline-block;
+        font-size: 20px;
+        padding-right: 5px;
+        margin-top: 20px;
+}
+
+
+/* .productDetails{  
         width: 190px;
         font-size: 17px;
-}
+} */
 
 .productNamePrice{
         font-size: 16px;
 }
 
-.xmark{
-        font-size: 20px;
-        padding-top: 7px;
-        padding-left: 10px;    
+.xmark{ 
         position: absolute;
-        top:0px;   
+        top: 15px;  
+        left: 15px;
+        width: 20px; 
+}
+
+.xmarkDelete{
+        width: 17px;  
 }
 
 .productDetails i{
@@ -977,12 +1000,12 @@ input, textarea{
         text-align: center;
 }
 
-.phone{
-       display: none;
-}
 
-.phoneimg{
-       display: none;
+.cartImg{
+       top: 45px;
+       left: 10px;
+       width: 50px;
+       height: 50px;
 }
     
 #myPicture {
