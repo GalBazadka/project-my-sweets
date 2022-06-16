@@ -5,13 +5,13 @@ function openMenu() {
     if (menu.style.display === "block") {
         menu.style.display = "none";
         hamburger.style.top = "70px";
-        hamburger.style.transform = "rotate(0deg)"
+        hamburger.style.transform = "rotate(0deg)";
 
 
     } else {
         menu.style.display = "block";
         hamburger.style.top = "-130px";
-        hamburger.style.transform = "rotate(-90deg)"
+        hamburger.style.transform = "rotate(-90deg)";
        
     }
 }
