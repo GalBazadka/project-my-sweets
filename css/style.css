@@ -403,25 +403,23 @@ p.price{
         margin-bottom: 50px;
         margin-left: auto;
         margin-right: auto;
- }
+}
 
  iframe{
         width: 500px;
         height: 550px;
         z-index: -1;
- }
+}
 
-/* <--! privacy page --> */
+/* <--! policy page --> */
 
-#privacy{
-   
+#policy{
         line-height: 22px;
 }
 
 /* <--! deliveries page --> */
 
-#deliveries{
-       
+#deliveries{    
         line-height: 22px;
 }
 
@@ -723,7 +721,7 @@ tr:nth-child(3){
         flex-direction: column;
 }
 
-#deliveries, #privacy{
+#deliveries, #policy{
         margin: 70px 70px ;
 }
 
@@ -836,7 +834,7 @@ Medium devices (landscape tablets, 768px and up)
         flex-direction: row;
 }
 
-#deliveries, #privacy{
+#deliveries, #policy{
         margin: 50px 250px ;
 }
 
