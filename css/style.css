@@ -278,9 +278,17 @@ a{
 
 /* <--! Home page --> */
 
-.mySlides{
-        width: 650px;
-        height: 800px;
+#slidepic{
+        display: none;
+}
+
+#slidepicSmallScreen{
+        display: block;
+}
+
+.mySlidesSmall{
+        width: 750px;
+        height: 900px;
         margin-left: auto;
         margin-right: auto;
         display:none;
@@ -729,9 +737,22 @@ Medium devices (landscape tablets, 768px and up)
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 1500px) {
 
+
+#slidepic{
+        display: block;
+}
+
+#slidepicSmallScreen{
+        display: none;
+} 
+
 .mySlides{
         width: 65%;
         height: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        display:none;
+        margin-top: 50px;
 }            
 
 #container{
