@@ -21,30 +21,32 @@
  
   <!-- menu small size -->
   
-<div id="firstcont">
+  <div id="firstcont">
 
-  <div class="phone">
-    <a href= tel:052-6200969  target="_blank" > <img class="phoneimg" src= "picture/phone.png"/> </a>
-  </div>
+    <div id="shopCart">
+      <a href= "#" onclick="openCartFunction()" >
+        <img class="cartImg" src= "picture\bag-shopping.jpg"/>
+      </a>
+    </div>
 
-  <div id="logo">
-    <a href="home.html" > <img id="logopic" src= "picture/logo.png"> </a>
-  </div> 
+    <div id="logo">
+      <a href="home.html" > <img id="logopic" src= "picture/logo.png"> </a>
+    </div> 
 
-  <div class="container">
-    <div class="topnav">
-      <div id="myLinks">
-        <li class="smallMenu"> <a href="home.html">        בית     </a> </li>
-        <li class="smallMenu"> <a href="cakes.html">       עוגות   </a> </li>
-        <li class="smallMenu"> <a href="dessertTables.html">       שולחנות   </a> </li>
-        <li class="smallMenu"> <a href="about me.html">   על עצמי  </a> </li>
-        <li class="smallMenu"> <a href="deliveries.html" > משלוחים </a> </li>
-      </div>
+    <div class="container">
+      <div class="topnav">
+        <div id="myLinks">
+          <li class="smallMenu"> <a href="home.html">        בית     </a> </li>
+          <li class="smallMenu"> <a href="cakes.html">       עוגות   </a> </li>
+          <li class="smallMenu"> <a href="dessertTables.html">       שולחנות   </a> </li>
+          <li class="smallMenu"> <a href="about me.html">   על עצמי  </a> </li>
+          <li class="smallMenu"> <a href="deliveries.html" > משלוחים </a> </li>
+        </div>
 
-      <div>
-        <a href="javascript:void(0);" onclick="openMenu()"> 
-        <img class="hamburgerImg" src= "picture/hamburger.png"> </a> 
-      </div>
+        <div>
+          <a href="javascript:void(0);" onclick="openMenu()"> 
+          <img class="hamburgerImg" src= "picture/hamburger.png"> </a> 
+        </div>
       </div>
     </div>         
   </div>
@@ -52,13 +54,21 @@
 <!-- menu larg size -->
 
   <div id="social">
-    <div class="icon" class="shopCart"> <a href="#" onclick="openCartFunction()"> <img class="socialMedia" src= "picture\bag-shopping.jpg"/> </a> </div>
+    <div class="icon"> <a href= tel:052-6200969  target="_blank"> <img class="socialMedia" src= "picture/phone3.png"> </a> </div>
     <div class="icon"> <a href="https://www.instagram.com/galbazadka/"  target="_blank"> <img class="socialMedia" src= "picture\instagram.png"> </a> </div>
     <div class="icon"> <a href="https://www.facebook.com/search/top?q=%D7%92%D7%90%D7%9C%D7%99%D7%94%20%D7%A4%D7%98%D7%99%D7%A1%D7%A8%D7%99%20-%20galia%20patisserie" target="_blank" > <img class="socialMedia" src= "picture\facebook.png"> </a> </div>
     <div class="icon"> <a href="https://api.whatsapp.com/send?phone=972526200969" target="_blank"> <img class="socialMedia" src= "picture\whatsapp.png"> </a> </div>
   </div>
 
+
   <div id="container" >
+
+    <div id="shopCart">
+      <a href= "#" onclick="openCartFunction()" >
+        <img class="cartImg" src= "picture\bag-shopping.jpg"/>
+      </a>
+    </div>
+
     <div id="nav">
       <nav>
           <ul id="menu" dir= "rtl">
@@ -78,37 +88,37 @@
 
   <!-- shopping cart -->
  
-<div id="shoppingCart">
-  <div class= "shoppingHeader">
-    <h1>  עגלת קניות </h1>
-  </div>
-
-  <div id="products">
-  </div>
-
-  <div class= "shoppingSumery">
-    <div class="total">
-
-      <table id="totalPriceTable" dir="rtl">
-        <tr>
-          <th>סה"כ:</th>
-          <td id = "totalPrice">₪ 0</td>
-        </tr>
-      </table> 
+  <div id="shoppingCart">
+    <div class= "shoppingHeader">
+      <h1>  עגלת קניות </h1>
+    </div>
+  
+    <div id="products">
+    </div>
+  
+    <div class= "shoppingSumery">
+      <div class="total">
+  
+        <table id="totalPriceTable" dir="rtl">
+          <tr>
+            <th>סה"כ:</th>
+            <td id = "totalPrice">₪ 0</td>
+          </tr>
+        </table> 
+        
+      </div>
       
+        <div class="cash">
+          <a id="shopping_button_submit" href="cart.html"> לקופה </a>
+      </div>
     </div>
-    
-      <div class="cash">
-        <a id="shopping_button_submit" href="cart.html"> לקופה </a>
-    </div>
-  </div>
 
-  <div>
-    <a href="javascript:void(0);" onclick="closeCartFunction()"> 
-    <img class="xmark" src= "picture/close.png"> </a> 
+    <div>
+      <a href="javascript:void(0);" onclick="closeCartFunction()"> 
+      <img class="xmark" src= "picture/close.png"> </a> 
+    </div>
+      
   </div>
-    
-</div>
 
   <div id= "deliveries" dir="rtl">
         
