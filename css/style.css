@@ -257,7 +257,7 @@ a{
 }
 
 .Cartxmark{
-        width: 20px;         
+        width: 25px;         
 }
 
 .xmarkDelete{
@@ -924,6 +924,10 @@ p.price{
         width: 17px;  
 }
 
+.Cartxmark{
+        width: 12px;         
+}
+
 .productDetails i{
         font-size: 12px;
         margin-top: 10px;
@@ -966,7 +970,7 @@ td, th{
 }
 
 .orderProductName{
-        width: 80%;
+        width: 85%;
         font-size: 16px;
 }
 
