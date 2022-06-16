@@ -404,7 +404,7 @@ p.price{
  }
 
  iframe{
-        width: 600px;
+        width: 500px;
         height: 550px
  }
 
@@ -983,9 +983,9 @@ input, textarea{
         margin-top: 65px;
         margin-left: auto;
         margin-right: auto;
- }
+}
 
- iframe{
+iframe{
         width: 450px;
         height: 500px
  }
