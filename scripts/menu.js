@@ -1,13 +1,14 @@
 function openMenu() {
     const menu = document.getElementById("myLinks");
-    const hamburger = document.getElementsByClassName("hamburgerImg");
+    const hamburger = document.querySelector("img[src='picture/hamburger.png']");
+    const close = document.querySelector("img[src='picture/closeBlueBig.png']");
     if (menu.style.display === "block") {
         menu.style.display = "none";
+        hamburger.style.top = "70px";
+
     } else {
         menu.style.display = "block";
-        hamburger.style.position = "absolute";
-        hamburger.style.top = "50px";
-        document.getElementsByClassName("hamburgerImg").style.position = "absolute";
-        document.getElementsByClassName("hamburgerImg").style.top = "-150px";
+        hamburger.style.top = "-130px";
+
     }
 }
