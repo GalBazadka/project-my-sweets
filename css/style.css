@@ -97,8 +97,9 @@ h6{
 
 .hamburgerImg{
         height: 70px;
-        margin-top: 70px;
-        margin-right: 10px;
+        position: absolute;
+        top: 70px;
+        right: 20px;
 }
 #nav{
         align-self: center;
