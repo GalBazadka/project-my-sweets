@@ -83,7 +83,7 @@ h6{
         grid-template-rows: repeat(5,1fr);     
         align-self: center;
         position: fixed;
-        top: 250px;
+        top: 500px;
 }
 
 .socialMedia{
@@ -844,6 +844,10 @@ h3{
 
 .footerMenu, .footer1 p{
         line-height: 22px;
+}
+
+#social {   
+        top: 170px;
 }
 
 .socialMedia{
