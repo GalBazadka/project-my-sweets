@@ -60,7 +60,7 @@ function addToCartFunction(x){
     image.className = "productImg";
     image.src = "picture/25cake.jpeg";
     details.className = "productDetails";
-    producticon.src = "picture/closeBlue.png";
+    producticon.src = "picture/closeBlueBig.png";
     producticon.className = "xmarkDelete";
     producticonHref.href = "#";
     producticonHref.addEventListener("click", removeFromCartFunction); 
