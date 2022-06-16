@@ -44,7 +44,7 @@ function addToCartFunction(x){
       
   //   }
   // }
-  console.log(addone)
+  // console.log(addone)
   if (!addone) {
     const product = document.createElement("div");
     const image = document.createElement("img")
