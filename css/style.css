@@ -83,7 +83,7 @@ h6{
         grid-template-rows: repeat(5,1fr);     
         align-self: center;
         position: fixed;
-        top: 500px;
+        top: 250px;
 }
 
 .socialMedia{
