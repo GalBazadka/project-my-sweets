@@ -405,7 +405,8 @@ p.price{
 
  iframe{
         width: 500px;
-        height: 550px
+        height: 550px;
+        z-index: -1;
  }
 
 /* <--! privacy page --> */
