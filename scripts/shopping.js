@@ -96,7 +96,9 @@ function addToCartFunction(x){
     product.appendChild(details);
     products.appendChild(product);
 
-    const productData = {SproductImg: image.src, SproductName: productname.className, SproductNamePrice: productprice.className} 
+    const productData = {SproductImg: image.src, SproductName: productname.className, SproductNamePrice: productprice.className};
+    const dataAsText = JSON.stringify(productData);
+    JSON.parse(dataAsText);
 
     calculateTotal()
   }
