@@ -99,9 +99,9 @@ function addToCartFunction(x){
     // localStorage.clear(); 
     localStorage.setItem('img', image.src); 
     localStorage.setItem('name', productname.innerHTML); 
-    localStorage.setItem('price', productprice.innerHTML); 
+    localStorage.setItem('price', productprice.innerHTML.split(" ")[3]); 
 
-    
+
     calculateTotal()
   }
 }
