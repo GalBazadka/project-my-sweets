@@ -15,10 +15,7 @@ function calculateTotal(){
 
   document.getElementById("totalPrice").innerHTML = totalSum + " ₪ ";
   
-  const cartcount = document.querySelectorAll(".Cartcounter")
-  for (let j=0 ; j< cartcount.length; j++){
-      document.querySelectorAll(".Cartcounter")[j].innerHTML = allPrices.length;
-  }
+ 
   
 }
 
@@ -37,6 +34,11 @@ function saveToLocalStorage(){
 
     let currentImg = allImg[i].src;
     localStorage.setItem('img', currentImg); 
+  }
+
+  const cartcount = document.querySelectorAll(".Cartcounter")
+  for (let j=0 ; j< cartcount.length; j++){
+      document.querySelectorAll(".Cartcounter")[j].innerHTML = allPrices.length;
   }
 
 }
