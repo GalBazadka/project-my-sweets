@@ -3,6 +3,13 @@ function openCartFunction(){
   // document.body.style.backgroundColor = "#e7e7e7"; 
 }
 
+function saveToLocalStorage(){
+    // localStorage.clear(); 
+    localStorage.setItem('img', image.src); 
+    localStorage.setItem('name', productname.innerHTML); 
+    localStorage.setItem('price', productprice.innerHTML.split(" ")[3]); 
+}
+
 function calculateTotal(){
   const allPrices = document.querySelectorAll(".productNamePrice"); 
   let totalSum = 0;
@@ -103,12 +110,7 @@ function addToCartFunction(x){
     product.appendChild(details);
     products.appendChild(product);
 
-    // localStorage.clear(); 
-    localStorage.setItem('img', image.src); 
-    localStorage.setItem('name', productname.innerHTML); 
-    localStorage.setItem('price', productprice.innerHTML.split(" ")[3]); 
-
-
+    saveToLocalStorage()
     calculateTotal()
   }
 }
