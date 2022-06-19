@@ -98,7 +98,7 @@ function addToCartFunction(x){
 
 
     // localStorage.setItem('img',  image.src ); 
-    const data ={ img:image.src, name: productname.className, price:productprice.className }
+    const data ={img :image.src, name: productname.className, price:productprice.className }
     JSON.stringify(data);
 
 
