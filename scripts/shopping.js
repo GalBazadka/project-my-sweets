@@ -3,13 +3,6 @@ function openCartFunction(){
   // document.body.style.backgroundColor = "#e7e7e7"; 
 }
 
-function saveToLocalStorage(){
-    // localStorage.clear(); 
-    localStorage.setItem('img', image.src); 
-    localStorage.setItem('name', productname.innerHTML); 
-    localStorage.setItem('price', productprice.innerHTML.split(" ")[3]); 
-}
-
 function calculateTotal(){
   const allPrices = document.querySelectorAll(".productNamePrice"); 
   let totalSum = 0;
@@ -17,7 +10,7 @@ function calculateTotal(){
     let current = allPrices[i].innerHTML;
     current = current.split(" ")[3];
     current = parseFloat(current);
-    totalSum += current
+    totalSum += current;
   } 
 
   document.getElementById("totalPrice").innerHTML = totalSum + " ₪ ";
@@ -27,6 +20,25 @@ function calculateTotal(){
       document.querySelectorAll(".Cartcounter")[j].innerHTML = allPrices.length;
   }
   
+}
+
+function saveToLocalStorage(){
+  // localStorage.clear(); 
+  const allPrices = document.querySelectorAll(".productNamePrice"); 
+  const allNames = document.querySelectorAll(".productName");
+  const allImg = document.querySelectorAll(".productImg");
+
+  for (let i=0 ; i < allPrices.length; i++){
+    let current = allPrices[i].innerHTML;
+    localStorage.setItem('price', current.split(" ")[3]); 
+
+    let currentName = allNames[i].innerHTML;
+    localStorage.setItem('name', currentName);
+
+    let currentImg = allImg[i].src;
+    localStorage.setItem('img', currentImg); 
+  }
+
 }
 
 function addToCartFunction(x){
