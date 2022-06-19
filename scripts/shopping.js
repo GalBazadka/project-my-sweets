@@ -96,7 +96,7 @@ function addToCartFunction(x){
     product.appendChild(details);
     products.appendChild(product);
 
-    localStorage.clear(); 
+    // localStorage.clear(); 
     localStorage.setItem('img', image.src); 
     localStorage.setItem('name', productname.className); 
     localStorage.setItem('price',productprice.className); 
