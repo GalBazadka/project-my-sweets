@@ -110,8 +110,9 @@ function addToCartFunction(x){
     product.appendChild(details);
     products.appendChild(product);
 
-    saveToLocalStorage()
     calculateTotal()
+    saveToLocalStorage()
+    
   }
 }
 
