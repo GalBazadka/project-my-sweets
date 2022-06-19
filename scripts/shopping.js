@@ -96,11 +96,22 @@ function addToCartFunction(x){
     product.appendChild(details);
     products.appendChild(product);
 
-    const productData = {SproductImg: image.src, SproductName: productname.className, SproductNamePrice: productprice.className};
-    const dataAsText = JSON.stringify(productData);
-    JSON.parse(dataAsText);
+    localStorage.setItem('language', 'JavaScript'); 
 
     calculateTotal()
+
+    // const productData = {SproductImg: image.src, SproductName: productname.className, SproductNamePrice: productprice.className};
+    // const dataAsText = JSON.stringify(productData);
+    // JSON.parse(dataAsText);
+
+    
+
+    // const data = { one: 10, two: 'hello world', three: [10, 20, 30] };
+    // JSON.stringify(data);
+    // const dataAsText = JSON.stringify(data);
+    // JSON.parse(dataAsText)
+
+
   }
 }
 
