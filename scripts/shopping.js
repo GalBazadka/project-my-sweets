@@ -98,8 +98,8 @@ function addToCartFunction(x){
 
     // localStorage.clear(); 
     localStorage.setItem('img', image.src); 
-    localStorage.setItem('name', productname.className); 
-    localStorage.setItem('price',productprice.className); 
+    localStorage.setItem('name', productname.innerHTML); 
+    localStorage.setItem('price', productprice.innerHTML); 
 
     calculateTotal()
   }
