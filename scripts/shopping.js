@@ -96,7 +96,7 @@ function addToCartFunction(x){
     product.appendChild(details);
     products.appendChild(product);
 
-    localStorage.setItem('language', 'JavaScript'); 
+    localStorage.setItem('img',  image.src ); 
 
     calculateTotal()
 
