@@ -58,7 +58,7 @@ function addToCartFunction(x){
     product.className = "product";
     product.dir = "rtl";
     image.className = "productImg";
-    image.src = "picture/25cake.jpeg";
+    image.src = " ";
     details.className = "productDetails";
     producticon.src = "picture/closeBlueBig.png";
     producticon.className = "xmarkDelete";
@@ -95,6 +95,8 @@ function addToCartFunction(x){
     product.appendChild(image);
     product.appendChild(details);
     products.appendChild(product);
+
+    const productData = {SproductImg: image.src, SproductName: productname.className, SproductNamePrice: productprice.className} 
 
     calculateTotal()
   }
