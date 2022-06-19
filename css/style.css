@@ -689,6 +689,13 @@ tr:nth-child(3){
         left: 20px;
 }
 
+.Cartcounter{
+        height: 70px;
+        position: absolute;
+        top: 77px;
+        left: 20px;
+}
+
 .cart{
         justify-self:start;
         margin-top: 35px;
