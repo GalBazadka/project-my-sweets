@@ -101,6 +101,7 @@ function addToCartFunction(x){
     localStorage.setItem('name', productname.innerHTML); 
     localStorage.setItem('price', productprice.innerHTML); 
 
+    
     calculateTotal()
   }
 }
