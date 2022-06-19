@@ -97,6 +97,7 @@ function addToCartFunction(x){
     products.appendChild(product);
 
     localStorage.setItem('img',  image.src ); 
+    const data ={ img:image.src, name: productname.className, price:productprice.className }
 
     calculateTotal()
 
