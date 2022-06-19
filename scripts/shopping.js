@@ -97,23 +97,18 @@ function addToCartFunction(x){
     products.appendChild(product);
 
     localStorage.clear(); 
-    // localStorage.setItem('img',  image.src ); 
-    const data ={img :image.src, name: productname.className, price:productprice.className }
-    JSON.stringify(data);
+    localStorage.setItem('img', image.src); 
+    localStorage.setItem('name', productname.className); 
+    localStorage.setItem('price',productprice.className); 
+
+
 
 
     calculateTotal()
 
-    // const productData = {SproductImg: image.src, SproductName: productname.className, SproductNamePrice: productprice.className};
-    // const dataAsText = JSON.stringify(productData);
-    // JSON.parse(dataAsText);
 
-    
 
-    // const data = { one: 10, two: 'hello world', three: [10, 20, 30] };
-    // JSON.stringify(data);
-    // const dataAsText = JSON.stringify(data);
-    // JSON.parse(dataAsText)
+ 
 
 
   }
