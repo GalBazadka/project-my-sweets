@@ -690,10 +690,13 @@ tr:nth-child(3){
 }
 
 .Cartcounter{
-        height: 70px;
+        height: 20px;
         position: absolute;
-        top: 77px;
-        left: 20px;
+        top: 78px;
+        left: 46px;
+        font-weight: bold;
+        color: #a9c8bc;
+        font-size: 28px;
 }
 
 .cart{
@@ -1023,6 +1026,16 @@ input, textarea{
        left: 10px;
        width: 50px;
        height: 50px;
+}
+
+.Cartcounter{
+        height: 20px;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        font-weight: bold;
+        color: #a9c8bc;
+        font-size: 18px;
 }
     
 #myPicture {

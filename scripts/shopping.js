@@ -6,13 +6,20 @@ function openCartFunction(){
 function calculateTotal(){
   const allPrices = document.querySelectorAll(".productNamePrice"); 
   let totalSum = 0;
-  for (let i = 0; i < allPrices.length; i++){
+  for (let i=0 ; i < allPrices.length; i++){
     let current = allPrices[i].innerHTML;
     current = current.split(" ")[3];
     current = parseFloat(current);
     totalSum += current
   } 
-  document.getElementById("totalPrice").innerHTML =totalSum + " ₪ ";
+
+  document.getElementById("totalPrice").innerHTML = totalSum + " ₪ ";
+  
+  const cartcount = document.querySelectorAll(".Cartcounter")
+  for (let j=0 ; j< cartcount.length; j++){
+      document.querySelectorAll(".Cartcounter")[j].innerHTML = allPrices.length;
+  }
+  
 }
 
 function addToCartFunction(x){
@@ -101,7 +108,7 @@ function addToCartFunction(x){
     localStorage.setItem('name', productname.innerHTML); 
     localStorage.setItem('price', productprice.innerHTML.split(" ")[3]); 
 
-    
+
     calculateTotal()
   }
 }
