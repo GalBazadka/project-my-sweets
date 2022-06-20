@@ -26,19 +26,25 @@ function saveToLocalStorage(){
   const allImg = document.querySelectorAll(".productImg");
 
   for (let i=0 ; i < allPrices.length; i++){
-    let current = allPrices[i].innerHTML;
+    let current = Number(localStorage.getItem('price'));
+    current = allPrices[i].innerHTML;
     localStorage.setItem('price', current.split(" ")[3]); 
 
-    let currentName = allNames[i].innerHTML;
+    let currentName = (localStorage.getItem('name'));
+    currentName = allNames[i].innerHTML;
     localStorage.setItem('name', currentName);
 
-    let currentImg = allImg[i].src;
+    let currentImg = (localStorage.getItem('img'));
+    currentImg = allImg[i].src;
     localStorage.setItem('img', currentImg); 
   }
 
-  const cartcount = document.querySelectorAll(".Cartcounter")
+  let cartcount = Number(localStorage.getItem('counter'));
+
+  cartcount = document.querySelectorAll(".Cartcounter")
   for (let j=0 ; j< cartcount.length; j++){
-      document.querySelectorAll(".Cartcounter")[j].innerHTML = allPrices.length;
+      let counter = document.querySelectorAll(".Cartcounter")[j].innerHTML = allPrices.length;
+      localStorage.setItem('cartcount', counter); 
   }
 
 }
