@@ -200,6 +200,10 @@ a{
         line-height: 50px;
 }
 
+.productId{
+        display: none;
+}
+
 
 #products{
         margin-top: 30px;     
@@ -298,6 +302,10 @@ a{
 
 /* <--! Cake page --> */
 
+.Id{
+        display: none;
+}
+
 .cake{  
         padding-top: 25px;
         width: 90%;
@@ -318,7 +326,6 @@ a{
         margin: auto;
         padding-top: 6%;   
         box-sizing: border-box;
-    
 }
 
 .item h3{
@@ -689,7 +696,7 @@ tr:nth-child(3){
         left: 20px;
 }
 
-.Cartcounter{
+.CartCounter{
         height: 20px;
         position: absolute;
         top: 78px;
@@ -1028,7 +1035,7 @@ input, textarea{
        height: 50px;
 }
 
-.Cartcounter{
+.CartCounter{
         height: 20px;
         position: absolute;
         top: 50px;
